@@ -1,0 +1,11 @@
+module.exports = {
+    plugins: ["ignore"],
+    overrides: [
+        {
+            files: ["/src/components/ChipComp.tsx"],
+            rules: {
+                "ignore/jsx-import": ["off"],
+            },
+        },
+    ],
+};
